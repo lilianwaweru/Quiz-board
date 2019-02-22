@@ -1,3 +1,10 @@
 .container{
-  margin: 200px;
+  margin: 80px;
+  background-color: #33FFF6;
+}
+p{
+  font-style: bold;
+}
+h1{
+  text-align: center;
 }
