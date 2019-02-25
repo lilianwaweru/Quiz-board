@@ -4,8 +4,6 @@ function sum (question1, question2, question3, question4){
 }
 
 //User logic
-
-
 $(document).ready(function(){
   $('#details').submit(function (event) {
     event.preventDefault();
@@ -15,7 +13,6 @@ $(document).ready(function(){
   $("#question").submit(function(event) {
     event.preventDefault();
     $("#question").hide();
-
     var question1 =parseInt($("input:radio[name=que1]:checked").val());
     var question2 =parseInt($("input:radio[name=que2]:checked").val());
     var question3 = parseInt($("input:radio[name=que3]:checked").val());
