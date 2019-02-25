@@ -1,9 +1,10 @@
 .container{
-  margin: 80px;
-  background-color: #33FFF6;
+  margin: 50px;
+background-color: #33fff6;
 }
 p{
   font-style: bold;
+  font-size: 30px;
 }
 h1{
   text-align: center;
@@ -13,4 +14,7 @@ h1{
 #score {
   margin-left: 30px;
   font-size: 30px;
+}
+#question{
+  display: none;
 }

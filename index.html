@@ -7,8 +7,22 @@
 </head>
 <body>
   <div class="container">
-    <h1>Javascripts test questions</h1>
+  <h2>PERSONAL DETAILS</h2>
+  <form id="details">
+    <p>Fill in your details</p>
+    <div class="section">
+      <div class="form-group"> <label for="first-name">First name:</label><input id="first-name" class="form-control" type="text"></div><br><br>
+      <div class="form-group"> <label for="second-name">Second name:</label><input id="second-name" class="form-control" type="text"></div><br><br>
+      <div class="form-group"> <label for="admission">Admission number:</label><input id="admission" class="form-control" type="text"></div>
+      <div id="submit">
+      <button type="submit" class="btn btn-light">submit</button>
+    </div>
+
+    </div>
+  </form>
+
     <form id="question">
+      <h1>Javascripts test questions</h1>
       <p>1. How do you convert a string to integer?</p>
       <div class="question1">
         <input type="radio" name="que1" value="0">toString<br>
@@ -60,9 +74,6 @@
       <div id="score"></div>
     </div>
   </div>
-
-
-
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 
