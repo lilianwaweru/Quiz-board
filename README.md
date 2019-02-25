@@ -28,7 +28,7 @@ No bugs are reported so far. Noticed any bug? KIndly contact me on lilowesh.lw@g
 3.html
 
 ## Link to the site
-Click on this link for the live demo
+Click on this link for the live demo https://lilianwaweru.github.io/Quiz-board/
 
 ## Support and contact details
 you can contact via slack at lilian waweru
