@@ -1,10 +1,13 @@
 QUIZ-BOARD
 Quiz board is an app that allows a user to have a quick test on Javascript; The app is divided in three sections:
 
-## Section 1 - This is for personal details.
-## Section 2 - This is the quiz area.
-## Section 3 - This is where the result is displayed.
-## One section is displayed at a time and on click you get to the the next section. This application gives you multiple choices and only allows for one selection per question. And on completing the test you get your results instantly on click.
+## Section 1
+This is for personal details.
+## Section 2
+This is the quiz area.
+## Section 3
+This is where the result is displayed.
+One section is displayed at a time and on click you get to the the next section. This application gives you multiple choices and only allows for one selection per question. And on completing the test you get your results instantly on click.
 
 By{List of contributors}
 When contributing to this repository, please first discuss the change you wish to make via issue.

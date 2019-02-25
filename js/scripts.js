@@ -22,11 +22,11 @@ $(document).ready(function(){
     var percent = (total/40)*100;
     $("#score").text(percent);
     if (percent>80 && percent <=100) {
-      $("#score").text("excelent");
+      $("#score").text(percent +"%" +" excelent");
     } else if(percent<80 && percent>=50){
-      $("#score").text("fairly passed");
+      $("#score").text(percent + "%" +" fairly passed");
     } else {
-      $("#score").text("failed!retake the test");
+      $("#score").text(percent + "%" +" failed!retake the test");
     }
   });
 });
